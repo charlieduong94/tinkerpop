@@ -23,6 +23,7 @@ limitations under the License.
 [[release-3-6-0]]
 === TinkerPop 3.6.0 (Release Date: NOT OFFICIALLY RELEASED YET)
 
+* Added `TextP.regex` and `TextP.notRegex`.
 * Changed TinkerGraph to allow identifiers to be heterogeneous when filtering.
 * Fixed query indentation for profile metrics where indent levels were not being respected.
 * `TraversalOpProcessor` no longer accepts a `String` representation of `Bytecode` for the "gremlin" argument which was left to support older versions of the drivers.
